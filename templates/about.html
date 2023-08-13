@@ -53,56 +53,7 @@
 
   <body>
     <!-- ======= Header ======= -->
-    <header id="header" class="header d-flex align-items-center">
-  <div
-    class="container-fluid container-xl d-flex align-items-center justify-content-between"
-  >
-    <a href="index.html" class="logo d-flex align-items-center">
-      <!-- Uncomment the line below if you also wish to use an image logo -->
-      <!-- <img src="assets/img/logo.png" alt=""> -->
-      <h1>LP Precision<span>.</span></h1>
-    </a>
-
-    <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-    <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-    <nav id="navbar" class="navbar">
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li class="dropdown">
-          <a href="#"
-            ><span>Dropdown</span>
-            <i class="bi bi-chevron-down dropdown-indicator"></i
-          ></a>
-          <ul>
-            <li><a href="#">Dropdown 1</a></li>
-            <li class="dropdown">
-              <a href="#"
-                ><span>Deep Dropdown</span>
-                <i class="bi bi-chevron-down dropdown-indicator"></i
-              ></a>
-              <ul>
-                <li><a href="#">Deep Dropdown 1</a></li>
-                <li><a href="#">Deep Dropdown 2</a></li>
-                <li><a href="#">Deep Dropdown 3</a></li>
-                <li><a href="#">Deep Dropdown 4</a></li>
-                <li><a href="#">Deep Dropdown 5</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Dropdown 2</a></li>
-            <li><a href="#">Dropdown 3</a></li>
-            <li><a href="#">Dropdown 4</a></li>
-          </ul>
-        </li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-    <!-- .navbar -->
-  </div>
-</header>
+    {{ header }}
     <!-- End Header -->
 
     <main id="main">
@@ -138,13 +89,7 @@
               <div class="our-story">
                 <h4>Est 1988</h4>
                 <h3>Our Story</h3>
-                <p>At L P Precision, our journey began over three decades ago with a simple yet ambitious vision: to redefine precision manufacturing. Today, we proudly stand as a beacon of excellence in the industry, trusted by clients far and wide.
-Our founder's passion for innovation and precision craftsmanship laid the foundation for what would become a leading name in the world of manufacturing. From our humble beginnings, we've nurtured a culture of relentless dedication to quality and a commitment to pushing the boundaries of what's possible.
-As the years rolled on, our expertise grew, and we embraced cutting-edge technologies that revolutionized our processes. With each project we undertook, we honed our skills, perfected our techniques, and expanded our capabilities.
-From intricate prototypes to complex production runs, our commitment remains unwavering.
-As we reflect on our journey, we're grateful for the trust our clients have placed in us. Our story is interwoven with yours, and we can't wait to see what the future holds.
-Thank you for being a part of the L P Precision story. Here's to many more decades of precision, innovation, and partnership.
-</p>
+                <p>{{ config.our_story }}</p>
                 <ul>
                   <li>
                     <i class="bi bi-check-circle"></i>
@@ -800,112 +745,7 @@ Thank you for being a part of the L P Precision story. Here's to many more decad
     <!-- End #main -->
 
     <!-- ======= Footer ======= -->
-    <footer id="footer" class="footer">
-  <div class="footer-content position-relative">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 col-md-6">
-          <div class="footer-info">
-            <h3>UpConstruction</h3>
-            <p>
-              A108 Adam Street <br />
-              NY 535022, USA<br /><br />
-              <strong>Phone:</strong> +1 5589 55488 55<br />
-              <strong>Email:</strong> info@example.com<br />
-            </p>
-            <div class="social-links d-flex mt-3">
-              <a
-                href="#"
-                class="d-flex align-items-center justify-content-center"
-                ><i class="bi bi-twitter"></i
-              ></a>
-              <a
-                href="#"
-                class="d-flex align-items-center justify-content-center"
-                ><i class="bi bi-facebook"></i
-              ></a>
-              <a
-                href="#"
-                class="d-flex align-items-center justify-content-center"
-                ><i class="bi bi-instagram"></i
-              ></a>
-              <a
-                href="#"
-                class="d-flex align-items-center justify-content-center"
-                ><i class="bi bi-linkedin"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-        <!-- End footer info column-->
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
-          </ul>
-        </div>
-        <!-- End footer links column-->
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
-          </ul>
-        </div>
-        <!-- End footer links column-->
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Hic solutasetp</h4>
-          <ul>
-            <li><a href="#">Molestiae accusamus iure</a></li>
-            <li><a href="#">Excepturi dignissimos</a></li>
-            <li><a href="#">Suscipit distinctio</a></li>
-            <li><a href="#">Dilecta</a></li>
-            <li><a href="#">Sit quas consectetur</a></li>
-          </ul>
-        </div>
-        <!-- End footer links column-->
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Nobis illum</h4>
-          <ul>
-            <li><a href="#">Ipsam</a></li>
-            <li><a href="#">Laudantium dolorum</a></li>
-            <li><a href="#">Dinera</a></li>
-            <li><a href="#">Trodelas</a></li>
-            <li><a href="#">Flexo</a></li>
-          </ul>
-        </div>
-        <!-- End footer links column-->
-      </div>
-    </div>
-  </div>
-
-  <div class="footer-legal text-center position-relative">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>LPPrecision</span></strong
-        >. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/ -->
-        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
-      </div>
-    </div>
-  </div>
-</footer>
+    {{ footer }}
     <!-- End Footer -->
 
     <a
