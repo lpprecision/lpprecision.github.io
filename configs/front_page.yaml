@@ -3,3 +3,8 @@ welcome_message: |
   eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
   enim ad minim veniam, quis nostrud exercitation ullamco laboris
   nisi ut aliquip ex ea commodo consequat.
+hero_carousel_imgs:
+  - assets/img/lpprecision/shop_1.jpg
+  - assets/img/lpprecision/shop_2.jpg
+  - assets/img/lpprecision/shop_3.jpg
+  - assets/img/lpprecision/product_10.jpg

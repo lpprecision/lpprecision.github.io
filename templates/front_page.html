@@ -82,22 +82,17 @@
         data-bs-ride="carousel"
         data-bs-interval="5000"
       >
+        {% for img in config.hero_carousel_imgs %} {% if loop.index0 == 0 %}
         <div
           class="carousel-item active"
-          style="background-image: url(assets/img/lpprecision/shop_1.jpg)"
+          style="background-image: url({{ img }})"
         ></div>
+        {% else %}
         <div
           class="carousel-item"
-          style="background-image: url(assets/img/lpprecision/shop_2.jpg)"
+          style="background-image: url({{ img }})"
         ></div>
-        <div
-          class="carousel-item"
-          style="background-image: url(assets/img/lpprecision/shop_3.jpg)"
-        ></div>
-        <div
-          class="carousel-item"
-          style="background-image: url(assets/img/lpprecision/product_10.jpg)"
-        ></div>
+        {% endif %} {% endfor %}
 
         <a
           class="carousel-control-prev"
