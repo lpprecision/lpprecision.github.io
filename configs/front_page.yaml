@@ -29,3 +29,32 @@ services:
   welding:
     name: Welding and Fabrication
     sub_description: Our welding and fabrication experts assemble parts and create custom structures to meet your exact specifications.
+products_images:
+  - assets/img/lpprecision/product_1.jpg
+  - assets/img/lpprecision/product_2.jpg
+  - assets/img/lpprecision/product_3.jpg
+  - assets/img/lpprecision/product_4.jpg
+  - assets/img/lpprecision/product_5.jpg
+  - assets/img/lpprecision/product_6.jpg
+  - assets/img/lpprecision/product_7.jpg
+  - assets/img/lpprecision/product_8.jpg
+  - assets/img/lpprecision/product_9.jpg
+
+service_factors:
+  factor1:
+    title: Exceeding Expectations in Precision Machining.
+    description: >
+      Our machinists are highly skilled professionals who meticulously craft components to the tightest tolerances, ensuring unparalleled precision.
+      Equipped with state-of-the-art CNC machinery, we leverage advanced technology to consistently deliver the highest quality products.
+    point1:
+      title: Precision Engineering
+      description: Our engineers meticulously design components to exact specifications, ensuring every detail is accounted for.
+    point2:
+      title: Zero Defects
+      description: We maintain a zero-defect policy, meticulously inspecting each component to eliminate any imperfections.
+    point3:
+      title: Microscopic Accuracy
+      description: Our equipment is capable of achieving microscopic accuracy, resulting in components that fit together seamlessly.
+    point4:
+      title: ISO Certification
+      description: We are ISO 9001 certified, a testament to our commitment to maintaining the highest levels of quality and precision.
