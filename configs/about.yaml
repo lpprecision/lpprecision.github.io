@@ -11,3 +11,39 @@ our_story: >
   Our story is interwoven with yours, and we can't wait to see what the future holds.
 
   Thank you for being a part of the LP Precision story. Here's to many more decades of precision, innovation, and partnership.
+service_factors:
+  factor1:
+    title: Exceeding Expectations in Precision Machining.
+    description: >
+      Our machinists are highly skilled professionals who meticulously craft components to the tightest tolerances, ensuring unparalleled precision.
+      Equipped with state-of-the-art CNC machinery, we leverage advanced technology to consistently deliver the highest quality products.
+    point1:
+      title: Precision Engineering
+      description: Our engineers meticulously design components to exact specifications, ensuring every detail is accounted for.
+    point2:
+      title: Zero Defects
+      description: We maintain a zero-defect policy, meticulously inspecting each component to eliminate any imperfections.
+    point3:
+      title: Microscopic Accuracy
+      description: Our equipment is capable of achieving microscopic accuracy, resulting in components that fit together seamlessly.
+    point4:
+      title: ISO Certification
+      description: We are ISO 9001 certified, a testament to our commitment to maintaining the highest levels of quality and precision.
+  factor2:
+    title: Elevating Your Experience Through Exceptional Customer Care.
+    description: >
+      Our customer service team is highly responsive, ensuring your inquiries are addressed promptly and your project progresses smoothly.
+      We understand that each client is unique, and we pride ourselves on offering personalized solutions that cater to your specific needs and preferences.
+      We provide post-service support to address any questions or concerns and ensure your long-term satisfaction.
+    point1:
+      title: Personalized Attention
+      description: We provide personalized attention, understanding that your project is unique and requires individualized care.
+    point2:
+      title: Timely Responses
+      description: Our team guarantees swift responses to your inquiries, maintaining transparent and efficient communication channels.
+    point3:
+      title: Dedicated Assistance
+      description: We offer dedicated assistance throughout the entire project lifecycle, from initial consultation to post-project support.
+    point4:
+      title: Client-Centric Approach
+      description: Our customer-centric approach is at the core of everything we do, ensuring that your experience with us exceeds your expectations.

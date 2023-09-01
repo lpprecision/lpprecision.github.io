@@ -9,3 +9,23 @@ get_started_title: No jobs is small to us. Precision in every cut.
 get_started_first_paragraph: Equipped with YCM CNC machines and Takisawa CNC turning center, we excel in projects of all scales. From prototypes to large-scale production, we've got you covered.
 get_started_second_paragraph: We specialize in precision work with medical-grade metals such as stainless steel, aluminum, and copper, as well as a comprehensive range of plastics from acetal to PEEK.
 email: lpprecision@sbcglobal.net
+services:
+  description: Our services can vary in complexity and can be tailored to meet the specific needs of customers across various industries, such as automotive, aerospace, electronics, and manufacturing.
+  cnc_machining:
+    name: Precision CNC Machining
+    sub_description: We specialize in Computer Numerical Control (CNC) machining, providing high-precision parts with cutting-edge technology.
+  milling:
+    name: Milling Expertise
+    sub_description: Our milling services shape materials to perfection, creating precise surfaces, slots, and contours.
+  turning:
+    name: Turn to Perfection
+    sub_description: Trust us for turning services that craft cylindrical components like shafts and screws with utmost precision.
+  grinding:
+    name: Fine Grinding Solutions
+    sub_description: We offer fine grinding services to enhance surface finish and accuracy, ensuring flawless components.
+  drilling:
+    name: Drilling Mastery
+    sub_description: Precision drilling is our forte, creating holes in materials accurately and efficiently.
+  welding:
+    name: Welding and Fabrication
+    sub_description: Our welding and fabrication experts assemble parts and create custom structures to meet your exact specifications.
