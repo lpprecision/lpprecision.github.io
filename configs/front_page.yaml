@@ -40,6 +40,18 @@ products_images:
   - assets/img/lpprecision/product_8.jpg
   - assets/img/lpprecision/product_9.jpg
 
+shop_description: >
+  Our state-of-the-art machinery includes YCM CNC machines and
+  Takisawa CNC turning centers, allowing us to handle projects of
+  all sizes, from prototypes to large-scale production. We
+  specialize in precision machining of various metals, including
+  medical-grade stainless steel, aluminum, and copper, as well as a
+  wide range of plastics from acetal to peek.
+shop_images:
+  - assets/img/lpprecision/shop_1.jpg
+  - assets/img/lpprecision/shop_2.jpg
+  - assets/img/lpprecision/shop_3.jpg
+
 service_factors:
   factor1:
     title: Exceeding Expectations in Precision Machining.

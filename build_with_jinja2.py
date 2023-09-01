@@ -35,6 +35,15 @@ def build_about():
     raw_html = template.render(footer=footer,header=header,config=config)
     with open('about.html','w') as f:
         f.write(raw_html)
+        
+def build_contact():
+    template = get_template('contact.html')
+    header = get_template('header.html').render()
+    footer = get_template('footer.html').render() # assume not subs needed
+
+    raw_html = template.render(footer=footer,header=header)
+    with open('contact.html','w') as f:
+        f.write(raw_html)
 
 def build_join_page():
     template = get_template('joinus.html')
@@ -81,6 +90,7 @@ def build_team_page():
 # build pages from template
 build_front_page()
 build_about()
+build_contact()
 # build_team_page()
 # build_pubs_page()
 # build_join_page()

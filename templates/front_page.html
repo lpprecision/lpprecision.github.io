@@ -415,6 +415,40 @@
       </section>
       <!-- End Alt Services Section -->
 
+      <!-- ======= Our Shop Section ======= -->
+      <section id="projects" class="projects">
+        <div class="container" data-aos="fade-up">
+          <div class="section-header">
+            <h2>Our Shop</h2>
+            <p>{{ config.shop_description }}</p>
+          </div>
+
+          <div class="portfolio-isotope">
+            <div
+              class="row gy-4 portfolio-container"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              {% for img in config.shop_images %}
+              <div class="col-lg-4 col-md-6 portfolio-item">
+                <div class="portfolio-content h-100">
+                  <img src="{{ img }}" class="img-fluid" alt="" />
+                  <div class="portfolio-info">
+                    <a href="{{ img }}" class="glightbox preview-link"
+                      ><i class="bi bi-zoom-in"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              {% endfor %}
+              <!-- End Shop Item -->
+            </div>
+            <!-- End Shop Container -->
+          </div>
+        </div>
+      </section>
+      <!-- End Our Shop Section -->
+
       <!-- ======= Our Projects Section ======= -->
       <section id="projects" class="projects">
         <div class="container" data-aos="fade-up">
